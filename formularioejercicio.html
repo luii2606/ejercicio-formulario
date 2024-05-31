@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fORMULARIO</title>
+</head>
+<body>
+  <form action="controlador" metod="post">
+    <div>
+  <label for Nombre>Nombre :</label>
+   <input type="text" name="nombre" required placeholder="escriba su nombre" id="nombre" autofocus autocomplete="of">
+  <for id nombre></for> 
+</div> 
+<p>
+
+<div>
+  <label for edad> Edad :</label>
+  <input type="number" step="1.0" min="0" max="20" values="10" name="edad" autofocus >
+</div>
+<p>
+    <div>
+  <label for="tele"> Telefono :</label>
+  <input type="text" id="number" name="telefono" pattern="[0-9]{0,10}" required>
+  </div>
+ <div>
+   <label for genero>Genero :</label>
+   </div>
+  <label for> Hombre</label><input type="radio" id= "checked" name="genero" value="Hombre" required>
+  <label for> Mujer</label><input type="radio" id= "checked" name="genero" value="Hombre" required>
+  <p>
+ 
+    <div>
+      <label for opcion> elija el o los animales que más le gusten :</label>
+    </div>
+
+     <div>
+      
+    <input type="checkbox" id ="checked" name="habilidad" value="perro">perro
+  </label>
+   
+    <label>
+      <input type="checkbox" id ="checked" name="habilidad" value="gato">gato
+    </label>
+      <label>
+      <input type="checkbox" id ="checked" name="habilidad" value="conejo">conejo
+    </label>
+       <label>
+      <input type="checkbox" id ="checked" name="habilidad" value="tortuga">tortuga
+    </label>
+    <p>
+ </div>
+  <label for> Cual es su color favorito? :</label>
+  <select name="colores" id="colores">
+    <option value="Selecciona una opción">Selecciona una opción</option>
+    <option value="Amarillo">Amarillo</option>
+    <option value="Azul">Azul</option>
+    <option value="Verde">Verde</option>
+    <option value="Negro">Negro</option>
+  </select>
+  <p>
+  <div>
+  <label for= "rango">Texto Rango</label>
+  <input type="text" autocomplete="off" placeholder="texto de 0 a 10 caracteres" pattern="[a-z]{0,10}" required>
+  </div>
+
+ <div>
+   <label for genero>Ingrese un Archivo :</label>
+   <p>
+   </div>
+   <p>
+ <div>
+    <input accept="image" type="file" multiple>
+ </div>
+ <p>
+
+<div> 
+    <button type="submit">Guardar</button> 
+</div>
+</p>
+</form>
+</body>
+</html>
